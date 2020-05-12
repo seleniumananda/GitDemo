@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="356" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:test.day2@6e0e048a]" name="ploan" class="test.day2"/>
+        <method signature="day4.MobileLoginHomeLoan()[pri:0, instance:test.day4@47ef968d]" name="MobileLoginHomeLoan" class="test.day4"/>
+        <method signature="day3.MobileLogincarLoan()[pri:0, instance:test.day3@711f39f9]" name="MobileLogincarLoan" class="test.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Personal loan" duration-ms="356" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+      <class name="test.day4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:test.day4@47ef968d]" name="LoginAPIHomeLoan" duration-ms="7" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@47ef968d]" name="MobileLoginHomeLoan" duration-ms="9" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan(java.lang.String)[pri:0, instance:test.day4@47ef968d]" name="WebloginHomeLoan" duration-ms="8" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:test.day2@6e0e048a]" name="prerequiste" is-config="true" duration-ms="2" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:test.day2@6e0e048a]" name="ploan" duration-ms="8" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method status="FAIL" signature="Demo()[pri:0, instance:test.day1@5bc79255]" name="Demo" duration-ms="77" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at test.day1.Demo(day1.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:test.day1@5bc79255]" name="lastexecution" is-config="true" duration-ms="1" started-at="2020-04-16T14:44:09 CDT" finished-at="2020-04-16T14:44:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
