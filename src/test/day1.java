@@ -16,6 +16,8 @@ public class day1 {
 		System.out.println("I will execute last1");
 		System.out.println("I will execute last2");
 		System.out.println("I will execute last3");
+		System.out.println("I will execute last3 - develop");
+		System.out.println("I will execute last3- develop2");
 		
 	}
 	@Test
